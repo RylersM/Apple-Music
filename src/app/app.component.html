@@ -1,0 +1,27 @@
+<div class="container-fuild principal ">
+  <nav class="navbar navbar-expand-lg bg-secondary my-3 ">
+    <div class="container-fluid text-white nav">
+      <a class="navbar-brand" href="#" class="manav">Only Good Vibes 🎶</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="" routerLinkActive="active-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/login" routerLinkActive="active-link">Se connecter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/admin">Admin</a>
+          </li>
+        </ul>
+        <p *ngIf="count"> {{count}} </p>
+      </div>
+    </div>
+  </nav>
+  <app-audio-player></app-audio-player>
+  <router-outlet></router-outlet>
+</div>

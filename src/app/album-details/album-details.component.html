@@ -1,0 +1,13 @@
+<!-- <p>album-details works!</p> -->
+<div [@fadeInAnimation] class="card mt-4 bg-secondary" *ngIf="album">
+    <img class="card-img-top" src="{{album.url}}" alt="Group Music" width="325">
+    <div class="card-body">
+        <h5 class="card-title">{{album.ref}}</h5>
+        <p class="card-text">Name : {{album.name}}</p>
+        <button (click)="play(album)" class="btn btn-primary">Play ⏯</button>
+        <button  class="btn btn-success mx-3" (click)="hide()">Hide Album 🛑</button>
+    </div>
+    <ul class="list-group ">
+        <li class="list-group-item" *ngFor="let elTab of tabAlbum"> {{elTab}} </li>
+    </ul>
+</div>

@@ -1,0 +1,30 @@
+/* .nav a{
+    color: white;
+}
+.nav{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.active-link{
+    border-radius: 2rem;
+    background-color: rgb(169, 152, 80);
+}
+.active-link:active{
+    background-color: rgb(233, 15, 15);
+    transition-property: all;
+    transition: 2s;}
+.active-link:hover{
+    background-color: rgb(41, 39, 139);
+    transition-property: all;
+    transition: 2s;}
+    .bg{
+        width: 1380px;
+    } */
+
+
+.manav {
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(191, 180, 255);
+    font-size: 2rem;
+}

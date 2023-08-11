@@ -1,0 +1,54 @@
+
+<div [@fadeInAnimation] >
+  <app-search (searchAlbums)="search($event)"></app-search>
+  <div class="container" *ngIf="albums" class="container principal mt-3" class="bg">
+
+    <div class="row bg-primary ">
+
+      <div class="col-sm-4 video mt-5 ">
+        <app-album-details [album]="selectedAlbum" (onPlay)="playParent($event)" ></app-album-details>
+      </div>
+      <div class="col-sm-8 music">
+        <h1 class="text-warning">{{titlePage}} </h1>
+        <app-paginate (setPaginate)="onSetPaginate($event)" ></app-paginate>
+        <ng-container *ngIf="albums.length; else notfound">
+          <div class="card mt-4 mb-3" *ngFor="let album of albums">
+            <div class="card-header text-bg-warning">
+              {{ album.ref }}
+              <span *ngIf="status === album.id"> [Play]</span>
+            </div>
+            <div class="card-body text-bg-secondary">
+              <h5 class="card-title"><a class="text-info mt-2" routerLink="/album/{{ album.id }}"
+                  href="../album-description/album-description.component.html">{{album.title}}</a> </h5>
+
+              <p class="card-text"> {{album.description}}</p>
+
+              <a class="btn btn-outline-dark" href="#" role="button" *ngFor="let el of album.tags" type="button"
+                class="btn  mx-1 my-2 btn-dark text-warning">{{el}} </a><br>
+
+              <a class="btn btn-outline-dark my-2" href="#" role="button ">fr</a>
+
+              <img class="glyph-icon mx-2" src="../../assets/si-glyph-heart.svg" width="20" />
+
+              <small>{{album.like}} </small>
+
+              <img class="glyph-icon mx-2" src="../../assets/si-glyph-timer.svg" width="20" />
+
+              <small> {{album.duration}} min </small><br>
+
+              <button class="btn btn-primary" (click)="leClick(album)">Voir plus...</button>
+            </div>
+          </div><!-- .card -->
+        </ng-container>
+        <ng-template #notfound>
+          <div class="card">
+            <div class="card-body text-center">
+              <p class="card-text">Aucun album trouvé !!! 😯😯😯</p>
+            </div>
+          </div>
+        </ng-template>
+      </div><!-- .music -->
+      <!-- <app-paginate (setPaginate)="onSetPaginate($event)"></app-paginate> -->
+    </div>
+  </div>
+</div>

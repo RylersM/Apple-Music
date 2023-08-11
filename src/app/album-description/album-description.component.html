@@ -1,0 +1,15 @@
+<div [@fadeInAnimation] class="container" *ngIf="album">
+    <div class="card-header">
+        {{album.ref}}
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{album.title}}</h5>
+        <h6>Name: {{album.name}} </h6>
+        <p class="card-text">{{album.description}}</p>
+        <p class="card-text">{{album.duration}} min</p>
+        <p class="card-text">{{album.like}}</p>
+        <a class="btn btn-outline-dark" href="#" role="button" *ngFor="let el of album.tags" type="button"class="btn  mx-1 my-2 btn-dark text-warning">{{el}} </a><br>
+        <img class="mx-auto d-block" src="{{album.url}}" alt="" width="680">
+
+    </div>
+</div>
