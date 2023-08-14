@@ -9,6 +9,8 @@ import { OpenCloseComponent } from './open-close/open-close.component';
 import { AdminModule } from './admin/admin.module';
 import { AlbumComponent } from './admin/album/album.component';
 import { AddAlbumComponent } from './admin/add-album/add-album.component';
+import { FormTemplateComponent } from './form-template/form-template.component';
+import { FormReactifComponent } from './form-reactif/form-reactif.component';
 
 //définission de la constante pour les routes
 const albumsRoutes: Routes = [
@@ -43,6 +45,12 @@ const albumsRoutes: Routes = [
   {
     path: 'add',
     component: AddAlbumComponent
+  },
+  {
+    path:'template', component: FormTemplateComponent
+  },
+  {
+    path: 'reactif', component: FormReactifComponent
   },
   {
     path: '**',

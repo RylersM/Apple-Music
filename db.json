@@ -2,7 +2,7 @@
   "albums": [
     {
       "id": "0",
-      "ref": "Rock Fun",
+      "ref": "Reconnaissance Santrinos",
       "name": "Santrinos Raphaël",
       "title": "L'éminence",
       "description": "Voluptate mollit consectetur pariatur labore. Quis amet quis minim nulla voluptate amet nisi. Ut sint veniam magna aute velit minim laborum eiusmod mollit dolor laborum. Minim Lorem Lorem pariatur adipisicing laborum tempor consequat est officia proident. Qui consequat duis ipsum minim Lorem cillum in excepteur.\r\n",
@@ -27,7 +27,7 @@
     },
     {
       "id": "1",
-      "ref": "Rock",
+      "ref": "Gospel",
       "name": "Sinach",
       "title": "Great are you Lord",
       "description": "Magna laborum quis qui deserunt id. Aute sint consequat aliquip minim duis tempor reprehenderit laborum pariatur ut anim culpa. Laboris sit ea cillum ex nostrud deserunt. Nulla deserunt exercitation non eu ipsum. Cillum ut irure et ea esse ea anim nostrud proident. Non incididunt ut velit pariatur. Occaecat qui fugiat cupidatat est pariatur irure sunt excepteur anim.\r\n",
@@ -44,7 +44,7 @@
     },
     {
       "id": "2",
-      "ref": "Rock",
+      "ref": "Gospel",
       "name": "Joe Mettle",
       "title": "Bo no ni",
       "description": "Exercitation sunt qui sint eiusmod velit est dolor duis commodo nulla cillum cupidatat dolor voluptate. Amet aute duis deserunt ad quis eiusmod est. In veniam veniam mollit velit qui amet quis. Et do sint ipsum nisi velit culpa laborum.\r\n",
@@ -68,7 +68,7 @@
     },
     {
       "id": "3",
-      "ref": "Jazz",
+      "ref": "Zouglou",
       "name": "Roseline LAYO",
       "title": "Donnez nous un peu",
       "description": "Cillum proident commodo do non esse cillum incididunt officia qui occaecat. Excepteur id voluptate esse tempor aliqua voluptate in labore anim incididunt ea nostrud nisi. Proident adipisicing adipisicing enim adipisicing nisi elit irure.\r\n",
@@ -88,7 +88,7 @@
     },
     {
       "id": "4",
-      "ref": "Fusion",
+      "ref": "Zouglou-Gospel",
       "name": "KS-Bloom",
       "title": "Miséricorde",
       "description": "Labore tempor laborum voluptate exercitation velit tempor magna ut pariatur sint ex. Est id magna mollit ipsum mollit minim officia. Enim aliquip eiusmod sunt incididunt aliquip occaecat eu. Eiusmod fugiat aliquip officia tempor esse ut et nulla. Commodo consectetur aliquip mollit laborum velit dolor quis nisi do. Consectetur voluptate quis nostrud deserunt incididunt ea in ad adipisicing ea laboris ullamco. Occaecat consectetur mollit deserunt excepteur enim consectetur dolor nostrud aute.\r\n",
@@ -104,7 +104,7 @@
     },
     {
       "id": "5",
-      "ref": "Jazz",
+      "ref": "Gospel",
       "name": "Dena Mwana",
       "title": "Souffle",
       "description": "Nostrud veniam dolor velit id occaecat cupidatat aliquip exercitation id aliqua nostrud. Ad mollit Lorem consectetur minim consequat est eiusmod deserunt pariatur est ullamco. Veniam anim veniam Lorem excepteur irure. Esse adipisicing nulla in incididunt. Consectetur fugiat exercitation aliquip excepteur ipsum ullamco ullamco magna commodo.\r\n",
@@ -124,7 +124,7 @@
     },
     {
       "id": "6",
-      "ref": "Jazz",
+      "ref": "Gospel",
       "name": "Deborah Lukalu",
       "title": "We Testify",
       "description": "Nostrud veniam dolor velit id occaecat cupidatat aliquip exercitation id aliqua nostrud. Ad mollit Lorem consectetur minim consequat est eiusmod deserunt pariatur est ullamco. Veniam anim veniam Lorem excepteur irure. Esse adipisicing nulla in incididunt. Consectetur fugiat exercitation aliquip excepteur ipsum ullamco ullamco magna commodo.\r\n",
@@ -144,7 +144,7 @@
     },
     {
       "id": "7",
-      "ref": "Fusion",
+      "ref": "Louange",
       "name": "Bruno Kpossou",
       "title": "Mega von o",
       "description": "Nostrud veniam dolor velit id occaecat cupidatat aliquip exercitation id aliqua nostrud. Ad mollit Lorem consectetur minim consequat est eiusmod deserunt pariatur est ullamco. Veniam anim veniam Lorem excepteur irure. Esse adipisicing nulla in incididunt. Consectetur fugiat exercitation aliquip excepteur ipsum ullamco ullamco magna commodo.\r\n",
@@ -164,10 +164,10 @@
     },
     {
       "id": "8",
-      "ref": "Rock",
+      "ref": "Adoration",
       "name": "Nadège ft Athom's",
       "title": "Touché",
-      "description": "Nostrud veniam dolor velit id occaecat cupidatat aliquip exercitation id aliqua nostrud. Ad mollit Lorem consectetur minim consequat est eiusmod deserunt pariatur est ullamco. Veniam anim veniam Lorem excepteur irure. Esse adipisicing nulla in incididunt. Consectetur fugiat exercitation aliquip excepteur ipsum ullamco ullamco magna commodo.\r\n",
+      "description": "Ceci est un chant d'adoration bien fait par des hommes et femmes de Dieu. Je l'ai écouté je l'ai adopté, particulière ",
       "duration": 240,
       "url": "http://placehold.it/32x32",
       "like": 10,
@@ -184,7 +184,7 @@
     },
     {
       "id": "9",
-      "ref": "Jazz",
+      "ref": "Rap",
       "name": "Bobo Wè",
       "title": "Hustler",
       "description": "Nostrud veniam dolor velit id occaecat cupidatat aliquip exercitation id aliqua nostrud. Ad mollit Lorem consectetur minim consequat est eiusmod deserunt pariatur est ullamco. Veniam anim veniam Lorem excepteur irure. Esse adipisicing nulla in incididunt. Consectetur fugiat exercitation aliquip excepteur ipsum ullamco ullamco magna commodo.\r\n",

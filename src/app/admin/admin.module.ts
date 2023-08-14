@@ -6,7 +6,7 @@ import { AddAlbumComponent } from './add-album/add-album.component';
 import { RouterModule, Routes } from '@angular/router';
 
 
-//Dans l'AdminModule 
+//Dans l'AdminModule definition des 
 const routes: Routes = [
   {
     path: 'admin/add',

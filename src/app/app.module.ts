@@ -18,6 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module'
 import { AdminModule } from './admin/admin.module';
 import { ShareModule } from './share/share.module';
+import { FormTemplateComponent } from './form-template/form-template.component';
+import { FormReactifComponent } from './form-reactif/form-reactif.component';
 
 //définission de la constante pour les routes
 const albumsRoutes: Routes = [
@@ -64,6 +66,8 @@ const albumsRoutes: Routes = [
     PageNotFoundComponent,
     // PaginateComponent,
     AudioPlayerComponent,
+    FormTemplateComponent,
+    FormReactifComponent,
   ],
   imports: [
     BrowserModule,
