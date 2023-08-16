@@ -1,8 +1,9 @@
-<p>form-reactif works!</p>
-<p>Name: <strong> {{musicForm.get("name")?.value}} </strong></p>
-<p>Auteur: <strong> {{musicForm.get("auteur")?.value}} </strong></p>
-<p>Styles: <strong> {{musicForm.get("style")?.value}} </strong></p>
-<div class="container-sm">
+<div class="p-3">
+    <p>Name : <strong> {{musicForm.get("name")?.value}} </strong></p>
+    <p>Auteur : <strong> {{musicForm.get("auteur")?.value}} </strong></p>
+    <p>Styles : <strong> {{musicForm.get("style")?.value}} </strong></p>
+</div>
+<div class="container-sm p-3">
     <form [formGroup]="musicForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
             <label for="name">Nom de l'album: </label>
@@ -25,7 +26,7 @@
                 <option *ngFor="let genre of genres" [value]="genre"> {{genre}}</option>
             </select>
         </div>
-        <button type="submit" class="btn btn-primary mb-2 mt-2">Add album</button>
+        <button type="submit" class="btn btn-primary mb-2 mt-4">Add album</button>
     </form>
 
     <!-- <p><input class="mb-2" type="text" [formControl]="search" placeholder="Search"></p>

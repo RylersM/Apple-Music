@@ -72,7 +72,7 @@ const albumsRoutes: Routes = [
   imports: [
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule,
+    // ReactiveFormsModule,
     BrowserAnimationsModule,
     /**
      * forRoot : méthode utilisée pour définir les routes à utilisés dans le module de routage.

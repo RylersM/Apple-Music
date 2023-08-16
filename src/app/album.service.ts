@@ -74,8 +74,8 @@ export class AlbumService {
     return this.http.get<Album[]>(this._albumsUrl).pipe(
       map((albums: Album[]) => {
         const res = _.values(albums) 
-      console.log('sans lodash', albums);
-      console.log('avec lodash', res);
+      // console.log('sans lodash', albums);
+      // console.log('avec lodash', res);
       
       return res;
       } ),

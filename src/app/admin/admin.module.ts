@@ -4,6 +4,7 @@ import { AlbumComponent } from './album/album.component';
 import { ShareModule } from '../share/share.module';
 import { AddAlbumComponent } from './add-album/add-album.component';
 import { RouterModule, Routes } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 //Dans l'AdminModule definition des 
@@ -22,7 +23,8 @@ const routes: Routes = [
   imports: [
     CommonModule,
     ShareModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    ReactiveFormsModule
   ],
   exports: [AlbumComponent, RouterModule]
 })
