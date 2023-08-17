@@ -22,37 +22,6 @@ import { FormTemplateComponent } from './form-template/form-template.component';
 import { FormReactifComponent } from './form-reactif/form-reactif.component';
 
 //définission de la constante pour les routes
-const albumsRoutes: Routes = [
-  /**
-   * path : 
-   */
-  {
-    path: 'albums',
-    component: AlbumsComponent
-  },
-  {
-    path: '',
-    redirectTo: '/albums',
-    pathMatch: 'full'
-  },
-  {
-    path: 'login',
-    component: LoginComponent
-  },
-  {
-    path: 'album/:albumId',
-    component: AlbumDescriptionComponent
-  },
-  {
-    path: 'open',
-    component: OpenCloseComponent
-  },
-  // {
-  //   path: '**',
-  //   component: PageNotFoundComponent
-  // },
-  
-];
 
 @NgModule({
   declarations: [
@@ -77,7 +46,6 @@ const albumsRoutes: Routes = [
     /**
      * forRoot : méthode utilisée pour définir les routes à utilisés dans le module de routage.
     */
-    RouterModule.forRoot(albumsRoutes),
     HttpClientModule,
     AdminModule,
     AppRoutingModule,

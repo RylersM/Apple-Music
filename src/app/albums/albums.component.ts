@@ -46,7 +46,7 @@ export class AlbumsComponent implements OnInit {
 
   leClick(album: Album): void {
     this.selectedAlbum = album;
-    // console.log('Le click marche');
+    console.log('Le click marche');
 
   }
 

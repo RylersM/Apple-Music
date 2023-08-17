@@ -54,7 +54,7 @@ export class AlbumService {
   }
 
   getAlbumList(id: string): Observable<List> {
-    return this.http.get<List>(this._albumsListUrl
+    return this.http.get<List>(this._albumsListUrl +'/'
      + id)
 
   }
